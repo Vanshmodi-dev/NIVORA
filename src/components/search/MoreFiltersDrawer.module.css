@@ -1,0 +1,4 @@
+.body { display: flex; flex-direction: column; gap: var(--space-5); }
+.group { display: flex; flex-direction: column; gap: var(--space-2); }
+.group h3 { font-size: 14px; }
+.hint { font-size: 13px; color: var(--text-2); }

@@ -1,0 +1,10 @@
+.frame { position: relative; width: 100%; border-radius: 16px; overflow: hidden; border: 1px solid #2b2b30; background: #141416; isolation: isolate; }
+.map { position: absolute; inset: 0; background: #1b1b1e; }
+.pinWrap { background: transparent; border: 0; }
+.pin { display: block; width: 22px; height: 22px; margin: 0 2px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); background: #b9f26b; border: 3px solid #0a0a0b; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); }
+.home { display: block; width: 12px; height: 12px; border-radius: 3px; background: #fff; border: 2px solid #0a0a0b; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); }
+.notice { position: absolute; left: 8px; right: 8px; top: 8px; z-index: 1000; margin: 0; padding: 8px 12px; border-radius: 10px; background: rgba(10, 10, 11, 0.92); color: #fff; font-size: 14px; border: 1px solid #3a3a40; }
+.centreBtn { position: absolute; left: 8px; bottom: 26px; z-index: 1000; min-height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid #fff; background: #0a0a0b; color: #fff; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.centreBtn:focus-visible { outline: 3px solid #b9f26b; outline-offset: 2px; }
+.frame :global(.leaflet-container) { font: inherit; }
+.frame :global(.leaflet-control-attribution) { font-size: 11px; }

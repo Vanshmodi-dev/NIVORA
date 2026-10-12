@@ -1,0 +1,4 @@
+.icon { position: absolute; top: var(--space-2); right: var(--space-2); z-index: 3; display: grid; place-items: center; width: 44px; height: 44px;
+  border: 0; border-radius: var(--radius-pill); background: rgba(255, 255, 255, 0.95); color: var(--navy-900); box-shadow: var(--shadow-1); }
+.icon:hover { background: var(--white); box-shadow: var(--shadow-2); }
+.on { color: var(--violet-600); }

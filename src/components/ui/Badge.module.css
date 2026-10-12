@@ -1,0 +1,9 @@
+.badge {
+  display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px;
+  border-radius: var(--radius-pill); font-size: 13px; font-weight: 600; line-height: 1.4;
+}
+.positive { color: var(--positive); background: var(--positive-bg); }
+.warning { color: var(--warning); background: var(--warning-bg); }
+.pending { color: var(--pending); background: var(--pending-bg); }
+.neutral { color: var(--neutral); background: var(--neutral-bg); }
+.error { color: var(--error); background: var(--error-bg); }

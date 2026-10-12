@@ -1,0 +1,45 @@
+.page { display: flex; flex-direction: column; gap: var(--space-4); padding: var(--space-5) var(--space-4) var(--space-8); max-width: 1100px; }
+@media (min-width: 768px) { .page { padding-inline: var(--space-5); } }
+.muted { color: var(--text-2); font-size: 14px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; }
+.search { flex: 1; min-width: 220px; }
+.search input, .sel select { min-height: 44px; width: 100%; padding: 0 var(--space-3); background: var(--white); border: 1px solid var(--input-border); border-radius: var(--radius-sm); }
+.sel { display: flex; align-items: center; gap: var(--space-2); font-size: 14px; font-weight: 600; }
+.sel select { width: auto; max-width: 240px; }
+.list { display: flex; flex-direction: column; gap: var(--space-3); }
+.row { display: grid; grid-template-columns: 80px 1fr; gap: var(--space-4); padding: var(--space-4); background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+@media (min-width: 900px) { .row { grid-template-columns: 112px 1fr auto; } }
+.thumb { border-radius: var(--radius-md); overflow: hidden; align-self: start; }
+.main { display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; }
+.main h2 { font-size: 17px; }
+.main h2 a { color: var(--navy-900); }
+.code { font-size: 13px; font-weight: 700; color: var(--text-2); letter-spacing: .03em; }
+.msg { font-size: 14px; color: var(--navy-900); overflow-wrap: anywhere; }
+.link { margin-left: var(--space-2); border: 0; background: transparent; color: var(--violet-600); font-weight: 600; text-decoration: underline; padding: var(--space-1) 0; }
+.badges { display: flex; gap: var(--space-2); margin-top: var(--space-1); }
+.actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: var(--space-2); }
+@media (min-width: 900px) { .actions { grid-column: auto; flex-direction: column; align-items: stretch; min-width: 160px; } }
+.empty { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-3); padding: var(--space-5); background: var(--white); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+.form { display: flex; flex-direction: column; gap: var(--space-4); }
+.field { display: flex; flex-direction: column; gap: var(--space-1); }
+.field label, .slots legend { font-size: 14px; font-weight: 600; }
+.field input { min-height: 44px; width: 100%; padding: 0 var(--space-3); background: var(--white); border: 1px solid var(--input-border); border-radius: var(--radius-sm); }
+.field input:focus { outline: none; box-shadow: var(--focus-ring); }
+.field input[aria-invalid="true"] { border-color: var(--error); }
+.err { color: var(--error); font-size: 14px; font-weight: 600; }
+.slots { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-1); }
+.radio { display: flex; align-items: center; gap: var(--space-2); min-height: 40px; cursor: pointer; }
+.radio input { width: 18px; height: 18px; accent-color: var(--violet-600); }
+.dl { display: flex; flex-direction: column; margin: 0 0 var(--space-4); border: 1px solid var(--border); border-radius: var(--radius-md); }
+.dl div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--space-2); padding: var(--space-3) var(--space-4); }
+.dl div + div { border-top: 1px solid var(--border); }
+.dl dt { color: var(--text-2); font-size: 14px; }
+.dl dd { margin: 0; font-weight: 600; text-align: right; overflow-wrap: anywhere; }
+.timeline { display: flex; flex-direction: column; gap: var(--space-3); border-left: 2px solid var(--border); padding-left: var(--space-4); margin-left: var(--space-2); }
+.timeline li { position: relative; display: flex; flex-direction: column; gap: 2px; }
+.timeline li::before { content: ""; position: absolute; left: calc(-1 * var(--space-4) - 6px); top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--violet-600); border: 2px solid var(--white); }
+.when { font-size: 13px; color: var(--text-2); }
+@media (max-width: 520px) {
+  .sel { width: 100%; }
+  .sel select { flex: 1; width: 100%; min-width: 0; max-width: none; }
+}

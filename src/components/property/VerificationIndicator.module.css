@@ -1,0 +1,9 @@
+.wrap { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; }
+.segments { display: flex; gap: 3px; }
+.seg { width: 18px; height: 10px; border-radius: 3px; border: 1.5px solid var(--neutral); box-sizing: border-box; }
+/* Distinct patterns, not only colours: solid / striped / dashed outline / outline with a dot */
+.verified_demo { background: var(--positive); border-color: var(--positive); }
+.pending_review { border-color: var(--pending); background: repeating-linear-gradient(135deg, var(--pending) 0 2px, var(--white) 2px 4px); }
+.not_checked { border-style: dashed; border-color: var(--neutral); background: var(--white); }
+.needs_reverification { border-color: var(--warning); background: radial-gradient(circle, var(--warning) 0 2px, var(--white) 2.5px); }
+.text { font-size: 13px; font-weight: 600; color: var(--text-2); }

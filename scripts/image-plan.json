@@ -1,0 +1,743 @@
+{
+  "_readme": "Fill pexelsId (the number in a pexels.com/photo/... URL) for each slot you want, then run `npm run images:fetch`. Leave null to keep the placeholder. Every photo must be a different Pexels photo. tier 'demo-minimum' = the smallest set that makes the demo look right (covers of tenant-visible homes + 6 owner-pool images).",
+  "slots": {
+    "fx01-1": {
+      "pexelsId": 9494898,
+      "alt": "Living room with a sofa, dining table and sheer curtains",
+      "usedBy": [
+        "NIV-DEMO-P001"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, semi furnished, cover / main room"
+    },
+    "fx01-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P001"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx01-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P001"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx01-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P001"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx01-5": {
+      "pexelsId": null,
+      "alt": "Illustrative balcony or entrance (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P001"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx02-1": {
+      "pexelsId": 7040700,
+      "alt": "Studio living space with a sofa and an open kitchen along one wall",
+      "usedBy": [
+        "NIV-DEMO-P002"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Studio, fully furnished, cover / main room"
+    },
+    "fx02-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (studio style home)",
+      "usedBy": [
+        "NIV-DEMO-P002"
+      ],
+      "tier": "full",
+      "hint": "Studio, fully furnished, extra view"
+    },
+    "fx02-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (studio style home)",
+      "usedBy": [
+        "NIV-DEMO-P002"
+      ],
+      "tier": "full",
+      "hint": "Studio, fully furnished, extra view"
+    },
+    "fx02-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (studio style home)",
+      "usedBy": [
+        "NIV-DEMO-P002"
+      ],
+      "tier": "full",
+      "hint": "Studio, fully furnished, extra view"
+    },
+    "fx02-5": {
+      "pexelsId": null,
+      "alt": "Illustrative balcony or entrance (studio style home)",
+      "usedBy": [
+        "NIV-DEMO-P002"
+      ],
+      "tier": "full",
+      "hint": "Studio, fully furnished, extra view"
+    },
+    "fx03-1": {
+      "pexelsId": 3990590,
+      "alt": "Carpeted living room with a ceiling fan, wooden TV unit and armchairs",
+      "usedBy": [
+        "NIV-DEMO-P003"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Independent House, semi furnished, cover / main room"
+    },
+    "fx03-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P003"
+      ],
+      "tier": "full",
+      "hint": "Independent House, semi furnished, extra view"
+    },
+    "fx03-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P003"
+      ],
+      "tier": "full",
+      "hint": "Independent House, semi furnished, extra view"
+    },
+    "fx03-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P003"
+      ],
+      "tier": "full",
+      "hint": "Independent House, semi furnished, extra view"
+    },
+    "fx03-5": {
+      "pexelsId": null,
+      "alt": "Illustrative balcony or entrance (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P003"
+      ],
+      "tier": "full",
+      "hint": "Independent House, semi furnished, extra view"
+    },
+    "fx04-1": {
+      "pexelsId": 3958953,
+      "alt": "Empty room with wooden floor, a ceiling fan and a built-in closet",
+      "usedBy": [
+        "NIV-DEMO-P004"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Single Room, unfurnished, cover / main room"
+    },
+    "fx04-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (single room style home)",
+      "usedBy": [
+        "NIV-DEMO-P004"
+      ],
+      "tier": "full",
+      "hint": "Single Room, unfurnished, extra view"
+    },
+    "fx04-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (single room style home)",
+      "usedBy": [
+        "NIV-DEMO-P004"
+      ],
+      "tier": "full",
+      "hint": "Single Room, unfurnished, extra view"
+    },
+    "fx04-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (single room style home)",
+      "usedBy": [
+        "NIV-DEMO-P004"
+      ],
+      "tier": "full",
+      "hint": "Single Room, unfurnished, extra view"
+    },
+    "fx05-1": {
+      "pexelsId": 16056400,
+      "alt": "Compact living room with a teal sofa, armchairs and a wall-mounted TV",
+      "usedBy": [
+        "NIV-DEMO-P005"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, semi furnished, cover / main room"
+    },
+    "fx05-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P005"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx05-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P005"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx05-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P005"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx06-1": {
+      "pexelsId": 7031621,
+      "alt": "Empty living room with dark wooden floor and a glass door to a balcony",
+      "usedBy": [
+        "NIV-DEMO-P006"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Builder Floor, unfurnished, cover / main room"
+    },
+    "fx06-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (builder floor style home)",
+      "usedBy": [
+        "NIV-DEMO-P006"
+      ],
+      "tier": "full",
+      "hint": "Builder Floor, unfurnished, extra view"
+    },
+    "fx06-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (builder floor style home)",
+      "usedBy": [
+        "NIV-DEMO-P006"
+      ],
+      "tier": "full",
+      "hint": "Builder Floor, unfurnished, extra view"
+    },
+    "fx07-1": {
+      "pexelsId": 6920439,
+      "alt": "Modern living room with a large corner sofa and a TV wall",
+      "usedBy": [
+        "NIV-DEMO-P007"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, fully furnished, cover / main room"
+    },
+    "fx07-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P007"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx07-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P007"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx07-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P007"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx07-5": {
+      "pexelsId": null,
+      "alt": "Illustrative balcony or entrance (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P007"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx08-1": {
+      "pexelsId": 7546648,
+      "alt": "Living room with a blue sofa, coffee table and a wall-mounted TV",
+      "usedBy": [
+        "NIV-DEMO-P008"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, semi furnished, cover / main room"
+    },
+    "fx08-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P008"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx08-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P008"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx09-1": {
+      "pexelsId": 6782426,
+      "alt": "Studio flat with a double bed, small dining table and kitchen area",
+      "usedBy": [
+        "NIV-DEMO-P009"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Studio, fully furnished, cover / main room"
+    },
+    "fx09-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (studio style home)",
+      "usedBy": [
+        "NIV-DEMO-P009"
+      ],
+      "tier": "full",
+      "hint": "Studio, fully furnished, extra view"
+    },
+    "fx09-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (studio style home)",
+      "usedBy": [
+        "NIV-DEMO-P009"
+      ],
+      "tier": "full",
+      "hint": "Studio, fully furnished, extra view"
+    },
+    "fx10-1": {
+      "pexelsId": 7148779,
+      "alt": "Spacious living room with sectional sofas, ceiling fans and recessed lighting",
+      "usedBy": [
+        "NIV-DEMO-P010"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Independent House, fully furnished, cover / main room"
+    },
+    "fx10-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P010"
+      ],
+      "tier": "full",
+      "hint": "Independent House, fully furnished, extra view"
+    },
+    "fx10-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P010"
+      ],
+      "tier": "full",
+      "hint": "Independent House, fully furnished, extra view"
+    },
+    "fx10-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (independent house style home)",
+      "usedBy": [
+        "NIV-DEMO-P010"
+      ],
+      "tier": "full",
+      "hint": "Independent House, fully furnished, extra view"
+    },
+    "fx11-1": {
+      "pexelsId": null,
+      "alt": "Illustrative living area (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P011"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, cover / main room"
+    },
+    "fx11-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P011"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx11-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P011"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx12-1": {
+      "pexelsId": null,
+      "alt": "Illustrative living area (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P012"
+      ],
+      "tier": "full",
+      "hint": "Apartment, unfurnished, cover / main room"
+    },
+    "fx13-1": {
+      "pexelsId": 7546557,
+      "alt": "Furnished living room with a light sofa, armchair and TV unit",
+      "usedBy": [
+        "NIV-DEMO-P013"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, fully furnished, cover / main room"
+    },
+    "fx13-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P013"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx13-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P013"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx13-4": {
+      "pexelsId": null,
+      "alt": "Illustrative bathroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P013"
+      ],
+      "tier": "full",
+      "hint": "Apartment, fully furnished, extra view"
+    },
+    "fx14-1": {
+      "pexelsId": 26859478,
+      "alt": "Empty room with a large window and a white built-in wardrobe",
+      "usedBy": [
+        "NIV-DEMO-P014"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Single Room, unfurnished, cover / main room"
+    },
+    "fx14-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (single room style home)",
+      "usedBy": [
+        "NIV-DEMO-P014"
+      ],
+      "tier": "full",
+      "hint": "Single Room, unfurnished, extra view"
+    },
+    "fx14-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (single room style home)",
+      "usedBy": [
+        "NIV-DEMO-P014"
+      ],
+      "tier": "full",
+      "hint": "Single Room, unfurnished, extra view"
+    },
+    "fx15-1": {
+      "pexelsId": 6580396,
+      "alt": "Living room with a green sofa, round side table and tall sheer curtains",
+      "usedBy": [
+        "NIV-DEMO-P015"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, semi furnished, cover / main room"
+    },
+    "fx15-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P015"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx15-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P015"
+      ],
+      "tier": "full",
+      "hint": "Apartment, semi furnished, extra view"
+    },
+    "fx16-1": {
+      "pexelsId": 8146158,
+      "alt": "Empty room with wooden floor and a doorway to a small kitchen",
+      "usedBy": [
+        "NIV-DEMO-P016"
+      ],
+      "tier": "demo-minimum",
+      "hint": "Apartment, unfurnished, cover / main room"
+    },
+    "fx16-2": {
+      "pexelsId": null,
+      "alt": "Illustrative bedroom (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P016"
+      ],
+      "tier": "full",
+      "hint": "Apartment, unfurnished, extra view"
+    },
+    "fx16-3": {
+      "pexelsId": null,
+      "alt": "Illustrative kitchen (apartment style home)",
+      "usedBy": [
+        "NIV-DEMO-P016"
+      ],
+      "tier": "full",
+      "hint": "Apartment, unfurnished, extra view"
+    },
+    "pool-01": {
+      "pexelsId": 6180679,
+      "alt": "Bedroom with a double bed, window seat and small dining table",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "demo-minimum",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-02": {
+      "pexelsId": 7303726,
+      "alt": "Compact kitchen counter with a sink, hob and wooden cabinets",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "demo-minimum",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-03": {
+      "pexelsId": 6890406,
+      "alt": "Small bathroom with a wall-hung toilet and a basin on a wooden vanity",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "demo-minimum",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-04": {
+      "pexelsId": 17000987,
+      "alt": "Apartment balcony with a metal railing overlooking other buildings",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "demo-minimum",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-05": {
+      "pexelsId": 2111768,
+      "alt": "Building facade with balconies, iron railings and potted plants",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "demo-minimum",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-06": {
+      "pexelsId": 4119832,
+      "alt": "Dining area with a glass table and chairs next to a living space",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "demo-minimum",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-07": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 7",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-08": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 8",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-09": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 9",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-10": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 10",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-11": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 11",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-12": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 12",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-13": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 13",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-14": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 14",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-15": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 15",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-16": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 16",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-17": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 17",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-18": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 18",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-19": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 19",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-20": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 20",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-21": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 21",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-22": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 22",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-23": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 23",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    },
+    "pool-24": {
+      "pexelsId": null,
+      "alt": "Illustrative home interior or exterior, demo image 24",
+      "usedBy": [
+        "owner pool"
+      ],
+      "tier": "full",
+      "hint": "any generic home interior/exterior (owner wizard photo choices)"
+    }
+  }
+}

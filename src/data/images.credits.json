@@ -1,0 +1,323 @@
+{
+  "fx01-1": {
+    "src": "/images/fx01-1.jpg",
+    "alt": "Living room with a sofa, dining table and sheer curtains",
+    "sourceUrl": "https://www.pexels.com/photo/sofa-in-a-spacious-living-room-9494898/",
+    "photographer": "I'm Zion",
+    "photographerUrl": "https://www.pexels.com/@zion/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P001"
+    ]
+  },
+  "fx02-1": {
+    "src": "/images/fx02-1.jpg",
+    "alt": "Studio living space with a sofa and an open kitchen along one wall",
+    "sourceUrl": "https://www.pexels.com/photo/new-spacious-room-in-contemporary-apartment-7040700/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P002"
+    ]
+  },
+  "fx03-1": {
+    "src": "/images/fx03-1.jpg",
+    "alt": "Carpeted living room with a ceiling fan, wooden TV unit and armchairs",
+    "sourceUrl": "https://www.pexels.com/photo/brown-wooden-tv-hutch-with-black-flat-screen-tv-3990590/",
+    "photographer": "Curtis Adams",
+    "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1000 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P003"
+    ]
+  },
+  "fx04-1": {
+    "src": "/images/fx04-1.jpg",
+    "alt": "Empty room with wooden floor, a ceiling fan and a built-in closet",
+    "sourceUrl": "https://www.pexels.com/photo/white-wooden-door-closet-3958953/",
+    "photographer": "Curtis Adams",
+    "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P004"
+    ]
+  },
+  "fx05-1": {
+    "src": "/images/fx05-1.jpg",
+    "alt": "Compact living room with a teal sofa, armchairs and a wall-mounted TV",
+    "sourceUrl": "https://www.pexels.com/photo/apartment-living-room-16056400/",
+    "photographer": "Erdem ÖZDEMİR",
+    "photographerUrl": "https://www.pexels.com/@erdemozdemir/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P005"
+    ]
+  },
+  "fx06-1": {
+    "src": "/images/fx06-1.jpg",
+    "alt": "Empty living room with dark wooden floor and a glass door to a balcony",
+    "sourceUrl": "https://www.pexels.com/photo/empty-room-with-balcony-and-parquet-floor-7031621/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P006"
+    ]
+  },
+  "fx07-1": {
+    "src": "/images/fx07-1.jpg",
+    "alt": "Modern living room with a large corner sofa and a TV wall",
+    "sourceUrl": "https://www.pexels.com/photo/modern-living-room-design-with-corner-sofa-6920439/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P007"
+    ]
+  },
+  "fx08-1": {
+    "src": "/images/fx08-1.jpg",
+    "alt": "Living room with a blue sofa, coffee table and a wall-mounted TV",
+    "sourceUrl": "https://www.pexels.com/photo/interior-design-of-room-7546648/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P008"
+    ]
+  },
+  "fx09-1": {
+    "src": "/images/fx09-1.jpg",
+    "alt": "Studio flat with a double bed, small dining table and kitchen area",
+    "sourceUrl": "https://www.pexels.com/photo/modern-flat-with-cozy-bed-and-loft-style-lamp-6782426/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P009"
+    ]
+  },
+  "fx10-1": {
+    "src": "/images/fx10-1.jpg",
+    "alt": "Spacious living room with sectional sofas, ceiling fans and recessed lighting",
+    "sourceUrl": "https://www.pexels.com/photo/white-and-red-sectional-couch-7148779/",
+    "photographer": "Souranshi Fashion and Lifestyle Magazine",
+    "photographerUrl": "https://www.pexels.com/@souranshi-fashion-and-lifestyle-magazine-2959920/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P010"
+    ]
+  },
+  "fx13-1": {
+    "src": "/images/fx13-1.jpg",
+    "alt": "Furnished living room with a light sofa, armchair and TV unit",
+    "sourceUrl": "https://www.pexels.com/photo/contemporary-living-room-interior-design-7546557/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P013"
+    ]
+  },
+  "fx14-1": {
+    "src": "/images/fx14-1.jpg",
+    "alt": "Empty room with a large window and a white built-in wardrobe",
+    "sourceUrl": "https://www.pexels.com/photo/a-room-with-a-large-window-and-white-cupboards-26859478/",
+    "photographer": "Alexander F Ungerer",
+    "photographerUrl": "https://www.pexels.com/@alexander-f-ungerer-157458816/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P014"
+    ]
+  },
+  "fx15-1": {
+    "src": "/images/fx15-1.jpg",
+    "alt": "Living room with a green sofa, round side table and tall sheer curtains",
+    "sourceUrl": "https://www.pexels.com/photo/modern-design-of-an-apartment-flat-6580396/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P015"
+    ]
+  },
+  "fx16-1": {
+    "src": "/images/fx16-1.jpg",
+    "alt": "Empty room with wooden floor and a doorway to a small kitchen",
+    "sourceUrl": "https://www.pexels.com/photo/white-room-with-wooden-flooring-8146158/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "NIV-DEMO-P016"
+    ]
+  },
+  "pool-01": {
+    "src": "/images/pool-01.jpg",
+    "alt": "Bedroom with a double bed, window seat and small dining table",
+    "sourceUrl": "https://www.pexels.com/photo/interior-of-cozy-bedroom-at-home-6180679/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "owner pool"
+    ]
+  },
+  "pool-02": {
+    "src": "/images/pool-02.jpg",
+    "alt": "Compact kitchen counter with a sink, hob and wooden cabinets",
+    "sourceUrl": "https://www.pexels.com/photo/minimalist-kitchen-furniture-7303726/",
+    "photographer": "Cup of Couple",
+    "photographerUrl": "https://www.pexels.com/@cup-of-couple/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "owner pool"
+    ]
+  },
+  "pool-03": {
+    "src": "/images/pool-03.jpg",
+    "alt": "Small bathroom with a wall-hung toilet and a basin on a wooden vanity",
+    "sourceUrl": "https://www.pexels.com/photo/toilet-and-sink-in-modern-light-bathroom-6890406/",
+    "photographer": "Max Vakhtbovych",
+    "photographerUrl": "https://www.pexels.com/@artbovich/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "owner pool"
+    ],
+    "focus": "50% 0%"
+  },
+  "pool-04": {
+    "src": "/images/pool-04.jpg",
+    "alt": "Apartment balcony with a metal railing overlooking other buildings",
+    "sourceUrl": "https://www.pexels.com/photo/railing-on-sunlit-balcony-17000987/",
+    "photographer": "hi room",
+    "photographerUrl": "https://www.pexels.com/@hiroom/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1000 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "owner pool"
+    ]
+  },
+  "pool-05": {
+    "src": "/images/pool-05.jpg",
+    "alt": "Building facade with balconies, iron railings and potted plants",
+    "sourceUrl": "https://www.pexels.com/photo/white-concrete-building-with-black-metal-railings-2111768/",
+    "photographer": "Luis Quintero",
+    "photographerUrl": "https://www.pexels.com/@jibarofoto/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1000 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "owner pool"
+    ]
+  },
+  "pool-06": {
+    "src": "/images/pool-06.jpg",
+    "alt": "Dining area with a glass table and chairs next to a living space",
+    "sourceUrl": "https://www.pexels.com/photo/interior-design-of-a-simple-house-4119832/",
+    "photographer": "Curtis Adams",
+    "photographerUrl": "https://www.pexels.com/@curtis-adams-1694007/",
+    "acquiredOn": "2026-10-10",
+    "licence": {
+      "name": "Pexels License",
+      "url": "https://www.pexels.com/license/"
+    },
+    "modifications": "None by NIVORA (Pexels-served 1200 px-wide rendition, downloaded unmodified)",
+    "usedBy": [
+      "owner pool"
+    ]
+  }
+}

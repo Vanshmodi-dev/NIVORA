@@ -1,0 +1,30 @@
+.shell { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
+.shellDark { --white: #0a0a0b; --surface: #0a0a0b; --border: #2e2e33; --navy-900: #ffffff; --text-2: #a8a8b0; --text-3: #a8a8b0; --violet-600: #b9f26b; --violet-700: #b9f26b; --violet-100: #26262a; --input-border: #5a5a62; background: #0a0a0b; color: #fff; }
+.header { position: sticky; top: 0; z-index: 40; background: var(--white); border-bottom: 1px solid var(--border); padding-top: env(safe-area-inset-top, 0px); }
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-1) var(--space-4); min-height: 64px; }
+.brand { display: inline-flex; align-items: center; min-height: 44px; text-decoration: none; border-radius: var(--radius-sm); }
+.actions { display: flex; align-items: center; gap: var(--space-2); margin-left: auto; }
+.main { flex: 1; }
+.topNav { display: none; flex: 1; margin-left: var(--space-4); }
+@media (min-width: 1024px) { .topNav { display: block; } }
+.menuButton { padding: 0 var(--space-3); }
+@media (min-width: 1024px) { .menuButton { display: none; } }
+
+.ownerBar { width: 100%; padding-inline: var(--space-4); }
+@media (min-width: 768px) { .ownerBar { padding-inline: var(--space-5); } }
+.ownerBody { flex: 1; display: flex; width: 100%; }
+.sidebar { display: none; }
+@media (min-width: 1024px) {
+  .sidebar { display: block; flex: none; width: var(--sidebar-w); padding: var(--space-5) var(--space-4); border-right: 1px solid var(--border); background: var(--white); }
+}
+.ownerMain { min-width: 0; max-width: var(--owner-max); }
+
+.bottomBar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; display: flex; background: var(--white); border-top: 1px solid var(--border); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.bottomItem { flex: 1; display: grid; place-items: center; min-height: 56px; padding: 0 var(--space-2); border: 0; background: transparent; color: var(--text-2); font-weight: 600; font-size: 13px; text-decoration: none; }
+.bottomOn { color: var(--navy-900); box-shadow: inset 0 3px 0 var(--violet-600); }
+.withBar { padding-bottom: 72px; }
+@media (min-width: 1024px) { .bottomBar { display: none; } .withBar { padding-bottom: 0; } }
+
+.headLink { display: none; padding: var(--space-2) var(--space-3); font-weight: 600; font-size: 14px; color: var(--navy-900); text-decoration: none; border-radius: var(--radius-md); }
+.headLink:hover { background: var(--surface-2); }
+@media (min-width: 480px) { .headLink { display: inline-flex; align-items: center; min-height: 44px; } }

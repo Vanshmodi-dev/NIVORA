@@ -1,0 +1,61 @@
+/* NIVORA design tokens (blueprint §14). Components consume tokens only. */
+:root {
+  color-scheme: light;
+
+  --navy-900: #0b1b3a;
+  --navy-700: #1f2f57;
+  --violet-600: #5b3fd6;
+  --violet-700: #4a31b8;
+  --violet-100: #eeeafb;
+  --white: #ffffff;
+  --surface: #f7f7fa;
+  --surface-2: #eff0f5;
+  --border: #e1e4ec;
+  --border-strong: #c5cad6;
+  /* Input boundaries need >= 3:1 against their background (WCAG 1.4.11); --border-strong is only 1.6:1. */
+  --input-border: #7c859d;
+  --text-2: #4f5870;
+  --text-3: #636c86;
+
+  --positive: #1e7a4f;
+  --positive-bg: #e6f4ec;
+  --warning: #9a5b00;
+  --warning-bg: #fdf1dc;
+  --pending: #2f5aa8;
+  --pending-bg: #e8effb;
+  --neutral: #4f5870;
+  --neutral-bg: #eef0f4;
+  --error: #b42318;
+  --error-bg: #fdecea;
+
+  --font-sans: "Inter Variable", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  --shadow-1: 0 1px 2px rgba(11, 27, 58, 0.06);
+  --shadow-2: 0 4px 16px rgba(11, 27, 58, 0.08);
+  --shadow-3: 0 12px 40px rgba(11, 27, 58, 0.14);
+
+  --focus-ring: 0 0 0 2px var(--white), 0 0 0 4px var(--violet-600);
+
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+
+  --content-max: 1200px;
+  --owner-max: 1280px;
+  --sidebar-w: 240px;
+}

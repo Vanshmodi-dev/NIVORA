@@ -1,0 +1,14 @@
+.skip { position: absolute; left: var(--space-4); top: -100px; z-index: 300; padding: var(--space-2) var(--space-4);
+  background: var(--navy-900); color: var(--white); border-radius: var(--radius-md); font-weight: 600; text-decoration: none; }
+.skip:focus { top: var(--space-3); }
+
+.banner { background: var(--warning-bg); color: var(--warning); text-align: center; font-size: 14px; font-weight: 600; padding: var(--space-2) var(--space-4); }
+
+.footer { margin-top: auto; border-top: 1px solid var(--border); background: var(--white); padding-block: var(--space-5); font-size: 13px; color: var(--text-2); }
+.footer p { max-width: 80ch; }
+
+.navH { display: flex; gap: var(--space-1); align-items: center; }
+.navV { display: flex; flex-direction: column; gap: var(--space-1); }
+.navLink { display: block; padding: var(--space-2) var(--space-3); border-radius: var(--radius-md); color: var(--text-2); font-weight: 600; font-size: 15px; text-decoration: none; }
+.navLink:hover { color: var(--navy-900); background: var(--surface-2); }
+.active { color: var(--navy-900); background: var(--violet-100); }

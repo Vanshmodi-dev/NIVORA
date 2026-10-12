@@ -1,0 +1,6 @@
+.nav { font-size: 14px; }
+.list { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1); color: var(--text-2); }
+.item { display: inline-flex; align-items: center; gap: var(--space-1); }
+.item a { color: var(--violet-600); text-decoration: none; font-weight: 600; }
+.item a:hover { text-decoration: underline; }
+.item [aria-current="page"] { color: var(--navy-900); font-weight: 600; }

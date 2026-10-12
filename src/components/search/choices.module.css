@@ -1,0 +1,4 @@
+.fieldset { margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.fieldset legend { font-size: 14px; font-weight: 600; padding: 0; margin-bottom: var(--space-2); }
+.radio { display: flex; align-items: center; gap: var(--space-2); min-height: 40px; font-size: 15px; cursor: pointer; }
+.radio input { width: 18px; height: 18px; accent-color: var(--violet-600); }

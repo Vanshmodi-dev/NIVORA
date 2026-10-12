@@ -1,0 +1,6 @@
+.bar { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--space-2) var(--space-3); }
+.location { width: min(240px, 100%); }
+.sort { margin-left: auto; display: flex; align-items: center; gap: var(--space-2); font-size: 14px; }
+.sort label { color: var(--text-2); font-weight: 600; }
+.sort select { height: 40px; padding: 0 var(--space-3); background: var(--white); border: 1px solid var(--input-border); border-radius: var(--radius-sm); }
+@media (max-width: 767px) { .sort { margin-left: 0; width: 100%; } .location { width: 100%; } }

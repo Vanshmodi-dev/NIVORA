@@ -1,0 +1,22 @@
+.overlay { position: fixed; inset: 0; z-index: 10000; background: #000; color: #f4e6bf; overflow: hidden; animation: fadeIn 200ms ease-out both; }
+.leaving { animation: fadeOut 400ms ease-in forwards; }
+.static.leaving { animation: none; opacity: 0; }
+.vignette { position: absolute; inset: 0; background: radial-gradient(60% 50% at 50% 42%, rgba(212, 160, 60, 0.1), transparent 70%), radial-gradient(120% 90% at 50% 50%, #05070d 0%, #000 70%); }
+.canvas { position: absolute; inset: 0; display: block; }
+.copy { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; padding-inline: 16px; text-align: center; }
+.descriptor { font-size: clamp(11px, 1.5vw, 15px); font-weight: 600; letter-spacing: 0.42em; text-indent: 0.42em; color: #d8b768; opacity: 0; animation: reveal 600ms ease-out forwards; }
+.tagline { font-size: clamp(18px, 3vw, 30px); font-weight: 500; letter-spacing: 0.02em; color: #fff4d6; opacity: 0; transform: translateY(8px); animation: rise 700ms ease-out forwards; }
+.static .descriptor, .static .tagline { animation: none; opacity: 1; transform: none; }
+.staticLogo { position: absolute; left: 0; right: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #e7b85a; }
+.staticName { font-weight: 700; letter-spacing: 0.28em; text-indent: 0.28em; color: #f1cf86; }
+.skip { position: absolute; top: max(16px, env(safe-area-inset-top)); right: 16px; min-height: 44px; padding: 0 20px; border-radius: 999px; border: 1px solid rgba(231, 184, 90, 0.7); background: rgba(0, 0, 0, 0.5); color: #f4e6bf; font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; }
+.skip:hover { background: rgba(231, 184, 90, 0.18); }
+.skip:focus-visible { outline: 3px solid #b9f26b; outline-offset: 3px; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes reveal { from { opacity: 0; } to { opacity: 1; } }
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .overlay, .leaving, .descriptor, .tagline { animation: none !important; }
+  .descriptor, .tagline { opacity: 1; transform: none; }
+}
